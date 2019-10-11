@@ -68,6 +68,7 @@ However, when you send regular request, the response message will only contain a
 - find the local location of the airbnbapijs package cade, which always like  _project/node_modules/airbnbapijs/build/config.js_
 - add a new attribute "x-airbnb-decice-id" into the headers:
        config.js
+       
         ~~~
         const config = {
             ***
@@ -82,6 +83,7 @@ However, when you send regular request, the response message will only contain a
         ~~~
 - After you added this attribute into header, the response from the airbnb service will content an json style message.
         response.error.client_error_info.airlock
+        
         ~~~json
         {
             ***,
@@ -92,6 +94,7 @@ However, when you send regular request, the response message will only contain a
             ***,
         }
         ~~~
+        
     Then we could get **airlock_id** and **user_id**.
 ##### Go to browser and go to the link:
 
@@ -102,6 +105,7 @@ Use the **Get access token** method again
 #### 3. Error Code 420 Type B --- Email Verification Code
 When you try to **get access token too many times** or you **change your device** or **ip address** to get the token, airbnb server will request to verify yourself using **phone number** or **email**.
 - In this case, the Error code 420 message will be different from the previous one. In the message, it will contain several new attributes and one of it is:
+
     ~~~json
     {
       flow: 'account_ownership_verification_for_login'
@@ -109,6 +113,7 @@ When you try to **get access token too many times** or you **change your device*
     ~~~
 
 - add email verification code to _project/node_modules/airbnbapijs/build/main.js_
+
     ~~~
     async emailVerifyRequest({airlock_id, user_id}){
       const options = this.buildOptions({
@@ -160,6 +165,7 @@ When you try to **get access token too many times** or you **change your device*
       }
     }
     ~~~
+    
 - Use two functions to pass the email verification step:
     > airbnb.emailVerifyRequest(airlock_id, user_id)
 
