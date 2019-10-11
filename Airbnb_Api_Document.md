@@ -182,7 +182,7 @@ airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')
 // returns listing array for your account (JSON)
 ~~~
 
-return example: UserOwnActiveListingsExample.Json
+return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)
 ### getReservations
 Returns a list of reservations
 
@@ -195,7 +195,7 @@ airbnb.getReservations({
 // returns an array of reservations in the mobile app format, ordered by latest update (JSON)
 ~~~
 
-return example: reservationExample.Json
+return example: [reservationExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/reservationExample.json)
 ### getListingInfoHost
 Gets private data on one of your listings
 
@@ -207,7 +207,7 @@ airbnb.getListingInfoHost({
 // returns extended listing info for your listing (JSON)
 ~~~
 
-return example: ListingInfoHostExample.Json
+return example: [ListingInfoHostExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/ListingInfoHostExample.json)
 ### getCalendar
 **Private** Calendar data regarding your listings including Reservations, cancellations, prices and blocked days
 ~~~
@@ -219,4 +219,4 @@ airbnb.getCalendar({
 })
 // returns array of calendar days with extended info, for your listings
 ~~~
-return example: [ListingCalendarExample.JSON](./ListingCalenderExample.json)
+return example: [ListingCalendarExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/ListingCalendarExample.json)
