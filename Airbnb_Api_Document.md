@@ -3,13 +3,14 @@
 
 ## Official and Unofficial Api
 ### 1. Official API
+
 Airbnb has published their offical api. However, it does not open to the public. What's more, they don't accept online request of the partnership.
+
 The official Q&A as:
----
+
 [Airbnb Partner](https://www.airbnb.com.au/partner)
 How can I get access to Airbnb’s API?
 At this time, we are not accepting new access requests for our API. Our global team of partner managers will reach out to prospective partners based on the supply opportunity your business represents, strength of your technology, and ability to support our shared customers.
----
 
 ### 2. Unofficial API
 although, Airbnb does not provide public document for their APIs. There are open source developers making unofficial APIs which using http requests to Airbnb server.
