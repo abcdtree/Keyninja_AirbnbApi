@@ -52,15 +52,15 @@ Api_key = d306zoyjsyarp7ifhu67rjxn52tv0t20
 Access Token is a **24-character-string** which is used to authorize the user when to call api. Without Access Token, we only could get public information.
 #### 1. Regular Call
 - **new Access Toekn Method (preferred):**
-    ```
+
     airbnb.newAccessToken({ username: 'foo@bar.com', password: 'hunter2' })
     // returns {token: 'faketoken3sDdfvtF9if5398j0v5nui'} or {error: {error obj}}
-    ```
+    
 - **login:**
-    ```
+
     airbnb.login({ username: 'foo@bar.com', password: 'hunter2' })
     // returns a user info object (includes token) or {error: {error obj}}
-    ```
+    
 #### 2. Error Code 420 Type A --- Robot Check
 When you try to get access token by **post** a request to Airbnb server, there is a chance the server denies your request and response you a request to verify yourself. You will have **Error Code 420**.
 However, when you send regular request, the response message will only contain a short message said _unknown reason_.
@@ -69,7 +69,6 @@ However, when you send regular request, the response message will only contain a
 - add a new attribute "x-airbnb-decice-id" into the headers:
        config.js
        
-        ~~~
         const config = {
             ***
             default_headers: {
@@ -80,11 +79,10 @@ However, when you send regular request, the response message will only contain a
             },
             ***
         };
-        ~~~
+        
 - After you added this attribute into header, the response from the airbnb service will content an json style message.
         response.error.client_error_info.airlock
         
-        ~~~json
         {
             ***,
             header_text: 'Please verify yourself',
@@ -93,7 +91,6 @@ However, when you send regular request, the response message will only contain a
             user_id: 230342702,//User_id
             ***,
         }
-        ~~~
         
     Then we could get **airlock_id** and **user_id**.
 ##### Go to browser and go to the link:
@@ -106,11 +103,9 @@ Use the **Get access token** method again
 When you try to **get access token too many times** or you **change your device** or **ip address** to get the token, airbnb server will request to verify yourself using **phone number** or **email**.
 - In this case, the Error code 420 message will be different from the previous one. In the message, it will contain several new attributes and one of it is:
 
-    ~~~json
     {
       flow: 'account_ownership_verification_for_login'
     }
-    ~~~
 
 - add email verification code to _project/node_modules/airbnbapijs/build/main.js_
 
