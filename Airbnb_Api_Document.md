@@ -176,37 +176,47 @@ When we build our own login in UI, we need to build good logic on these possbile
 ## 4. Call Useful APIs
 ### getOwnActiveListings
 Gets an array containing a host's active listings
-> airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')
+
+~~~
+airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')
 // returns listing array for your account (JSON)
+~~~
 
 return example: UserOwnActiveListingsExample.Json
 ### getReservations
 Returns a list of reservations
-> airbnb.getReservations({
+
+~~~
+airbnb.getReservations({
     token: 'faketoken3sDdfvtF9if5398j0v5nui',
     offset: 0, //*how many records to skip*
     limit: 10  //*how many records to return*
 })
 // returns an array of reservations in the mobile app format, ordered by latest update (JSON)
+~~~
 
 return example: reservationExample.Json
 ### getListingInfoHost
 Gets private data on one of your listings
-> airbnb.getListingInfoHost({
+
+~~~
+airbnb.getListingInfoHost({
     token: 'faketoken3sDdfvtF9if5398j0v5nui',
     id: 109834757 //**listing id**
 })
 // returns extended listing info for your listing (JSON)
+~~~
 
 return example: ListingInfoHostExample.Json
 ### getCalendar
 **Private** Calendar data regarding your listings including Reservations, cancellations, prices and blocked days
-> airbnb.getCalendar({
+~~~
+airbnb.getCalendar({
     token: 'faketoken3sDdfvtF9if5398j0v5nui',
     id: 109834757, //**listing id**
     startDate: '2018-01-01',
     endDate: '2018-02-28'
 })
 // returns array of calendar days with extended info, for your listings
-
+~~~
 return example: ListingCalendarExample.JSON
