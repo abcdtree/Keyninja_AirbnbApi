@@ -9,6 +9,7 @@ Airbnb has published their offical api. However, it does not open to the public.
 The official Q&A as:
 
 [Airbnb Partner](https://www.airbnb.com.au/partner)
+
 How can I get access to Airbnb’s API?
 At this time, we are not accepting new access requests for our API. Our global team of partner managers will reach out to prospective partners based on the supply opportunity your business represents, strength of your technology, and ability to support our shared customers.
 
