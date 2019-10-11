@@ -1,0 +1,845 @@
+{
+  "table": [
+    [
+      {
+        "alterations": [],
+        "arrival_details": {
+          "checkin_time_selection_options": [],
+          "valid_checkin_time_selection_options": [],
+          "guest_checkin_time_from": {
+            "formatted_hour": "NOT_SELECTED",
+            "localized_hour_string": "Select"
+          },
+          "guest_checkin_time_to": {
+            "formatted_hour": "NOT_SELECTED",
+            "localized_hour_string": "Select"
+          },
+          "guest_details_block_instant_book_message": null,
+          "is_bringing_pets": false,
+          "is_check_in_time_instant_bookable": true,
+          "number_of_adults": 1,
+          "number_of_children": 0,
+          "number_of_infants": 0,
+          "will_guest_details_block_instant_book": false
+        },
+        "booked_at": "2019-08-19T12:43:29Z",
+        "cancellation_host_fee": 0,
+        "cancellation_host_fee_native": 0,
+        "cancellation_policy": "long_term_grace_period_at_most_48",
+        "cancellation_policy_description": {
+          "body": [
+            "Note: The Long Term cancellation policy applies to all reservations of 28 nights or more.",
+            "If the guest books a long term reservation and decides to cancel the reservation before the start date, the first month of the reservation is paid to the host in full and not refunded to the guest.",
+            "If the guest books a reservation and decides to cancel the reservation during their stay, the guest must use the online alteration tool in order to agree to a new checkout date.  Regardless of the checkout date chosen, the guest is required to pay the host for the 30 days following the cancellation date, or up to the end date of the guest’s original reservation if the remaining portion of the original reservation is less than 30 days.",
+            "Cleaning fees are always refunded if the reservation is canceled before check-in.",
+            "Accommodation fees (the total nightly rate you’re charged) are refundable in certain circumstances as outlined below.",
+            "If there is a complaint from either party, notice must be given to Airbnb within 24 hours of check-in.",
+            "Airbnb will mediate when necessary, and has the final say in all disputes.",
+            "A reservation is officially canceled when the guest clicks the cancellation button on the cancellation confirmation page, which they can find in Dashboard > Your Trips > Change or Cancel.",
+            "Cancellation policies may be superseded by the Guest Refund Policy, extenuating circumstances, or cancellations by Airbnb for any other reason permitted under the Terms of Service. Please review these exceptions."
+          ],
+          "guest_subtitle": "First month not refundable, 30 day notice for cancellation",
+          "id": "long_term",
+          "subtitle": "First month not refundable, 30 day notice for cancellation",
+          "title": "Long Term"
+        },
+        "cancellation_policy_formatted": "Long Term",
+        "check_in": "2019-09-27",
+        "check_out": "2019-10-31",
+        "confirmation_code": "HMAR4HR5QP",
+        "current_user_review": null,
+        "guest": {
+          "acceptance_rate": "N/A",
+          "created_at": "2018-02-10T03:00:44Z",
+          "first_name": "Michael",
+          "has_profile_pic": true,
+          "id": 172583892,
+          "identity_mt_verified": true,
+          "identity_v2_verified": true,
+          "identity_verified": true,
+          "is_superhost": false,
+          "is_trip_host": false,
+          "picture_large_url": "https://a0.muscache.com/im/pictures/user/a5adb9ae-bd2b-4d88-adc3-891f3bc35365.jpg?aki_policy=profile_large",
+          "picture_url": "https://a0.muscache.com/im/pictures/user/a5adb9ae-bd2b-4d88-adc3-891f3bc35365.jpg?aki_policy=profile_x_medium",
+          "recommendation_count": 0,
+          "response_rate": "N/A",
+          "response_time": "N/A",
+          "reviewee_count": 0,
+          "thumbnail_medium_url": "https://a0.muscache.com/im/pictures/user/a5adb9ae-bd2b-4d88-adc3-891f3bc35365.jpg?aki_policy=profile_medium",
+          "thumbnail_url": "https://a0.muscache.com/im/pictures/user/a5adb9ae-bd2b-4d88-adc3-891f3bc35365.jpg?aki_policy=profile_small",
+          "email": "michael-xvny3uq1a5s2uuzk@guest.airbnb.com",
+          "last_name": "Murray",
+          "listings_count": 0,
+          "location": "Scottsdale, AZ",
+          "phone": "+1 (480) 291-4424",
+          "reviews_count_as_guest": 0,
+          "review_ratings_as_guest": {
+            "cleanliness": {
+              "average_rating": 0,
+              "reviews_count": 0
+            },
+            "respect_house_rules": {
+              "average_rating": 0,
+              "reviews_count": 0
+            },
+            "communication": {
+              "average_rating": 0,
+              "reviews_count": 0
+            },
+            "overall": {
+              "average_rating": 0,
+              "reviews_count": 0
+            }
+          },
+          "verifications": [
+            "email",
+            "phone",
+            "offline_government_id",
+            "government_id"
+          ],
+          "verification_labels": [
+            "Email address",
+            "Phone number",
+            "Government ID",
+            "Government ID"
+          ]
+        },
+        "guest_avatar_status": "no_avatar",
+        "guest_details": {
+          "localized_description": "1 guest",
+          "number_of_adults": 1,
+          "number_of_children": 0,
+          "number_of_infants": 0
+        },
+        "has_high_cancellation_risk_host": false,
+        "has_paid_amenity_orders": false,
+        "host_currency": "AUD",
+        "host_price_breakdown": {
+          "host_payout_breakdown": {
+            "discount_data": null,
+            "localized_explanation": null,
+            "localized_title": "You earn",
+            "total": {
+              "amount": 3631,
+              "amount_micros": 3631960000,
+              "amount_formatted": "$3,631.96",
+              "is_micros_accuracy": true,
+              "currency": "AUD"
+            },
+            "type": "HOST_EARNINGS",
+            "price_items": [
+              {
+                "discount_data": null,
+                "localized_explanation": null,
+                "localized_title": "$107 x 34 nights",
+                "total": {
+                  "amount": 3640,
+                  "amount_micros": 3640900000,
+                  "amount_formatted": "$3,640.90",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "ACCOMMODATION",
+                "price_items": []
+              },
+              {
+                "discount_data": null,
+                "localized_explanation": "This fee will apply to every reservation at your listing.",
+                "localized_title": "Cleaning fee",
+                "total": {
+                  "amount": 115,
+                  "amount_micros": 115000000,
+                  "amount_formatted": "$115.00",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "CLEANING_FEE",
+                "price_items": []
+              },
+              {
+                "discount_data": null,
+                "localized_explanation": "",
+                "localized_title": "Service fee",
+                "total": {
+                  "amount": -124,
+                  "amount_micros": -123940000,
+                  "amount_formatted": "-$123.94",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "HOST_SERVICE_FEE",
+                "price_items": []
+              }
+            ]
+          }
+        },
+        "id": 1734451269,
+        "incentives": [],
+        "instant_book_enabled_at_booking": true,
+        "instant_booked": false,
+        "is_group_payment_enabled": false,
+        "is_korean_strict_booking": false,
+        "is_shared_itinerary": false,
+        "listing": {
+          "additional_house_rules": "Check-in\n•CHECK-IN: Standard check-in is between 3-9pm. \n•Check-ins between 9pm-midnight will incur a late check-in fee of $25. \n•Check-ins after midnight will incur a late check-in fee of $50.\n*We will require you to present a valid photo ID matching the booking at the time of check-in.*\n\nStrict House Rules\n•No smoking or drug use allowed (violation will incur a $500 fine).\n•No parties allowed.\n•No pets allowed.\n•The correct number of guests staying must be reflected in the booking. Linen and towels will only be provided for the number of guests included in the booking. \n•Please leave the property in a similar condition as it was during check-in. \n•Breakages, damages, theft and loss will be the guest's liability and responsibility.\n•Violation of any of the rules will result in a loss of your security deposit and/or additional charges.\n•As part of our verification procedure, a photo of a government-issued ID and a selfie may be requested.\n•Noise levels are to be kept at an appropriate level at all times.\n•Please dispose of excess rubbish according to the rubbish disposal instructions located in the Housing Manual.\n•PLEASE USE THE RANGE HOOD WHEN COOKING so as to not set off the smoke alarm. If the smoke alarm goes off, DO NOT OPEN THE FRONT DOOR. Doing so will cause the fire truck to come to the apartment in which you will be fined heavily (approx. $1,500).\n•We provide a set of toiletries to ensure you are settled in well for the initial period of your stay. Regrettably, we are unable to provide re-stocks or refills of these toiletries if you have a longer stay. You may, however, request for housekeeping during your stay at additional cost.\n\nExcess Rubbish\nPlease dispose of excess rubbish in the rubbish chute located near the lift.\n\nLost & Found\n-Lost items will be kept in our office for 1 week. $50 will be charged for postage to mail the item back to you upon request.",
+          "address": "5806/450 Elizabeth Street, Melbourne, VIC 3004, Australia, Melbourne, VIC 3000, Australia",
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "beds": 2,
+          "cancellation_policy": "strict_14_with_grace_period",
+          "check_in_time": 15,
+          "check_out_time": 10,
+          "city": "Melbourne",
+          "country": "Australia",
+          "country_code": "AU",
+          "directions": "The building is named Lighthouse Apartments, located at 442 Elizabeth St.",
+          "first_reserved_at": "2018-10-30T08:37:25Z",
+          "full_address": "5806/450 Elizabeth Street, Melbourne, VIC 3004, Australia, Melbourne, VIC 3000, Australia",
+          "guest_controls": {
+            "allows_children": true,
+            "allows_infants": true,
+            "allows_pets": false,
+            "allows_smoking": false,
+            "allows_events": false,
+            "categorized_house_rules_with_tips": [
+              {
+                "key": "check_in_time.check_out_time",
+                "long_term_text": null,
+                "text": "Check-in time is 3PM - 9PM. Check out by 10AM.",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_home",
+                "category": 1,
+                "icon": null
+              },
+              {
+                "key": "is_smoking_allowed_as_host.are_pets_allowed_as_host.are_events_allowed_as_host",
+                "long_term_text": null,
+                "text": "No smoking. No pets. No parties or events.",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_home",
+                "category": 2,
+                "icon": null
+              }
+            ],
+            "categorized_house_rules_with_tips_without_checkin_checkout": [
+              {
+                "key": "is_smoking_allowed_as_host.are_pets_allowed_as_host.are_events_allowed_as_host",
+                "long_term_text": null,
+                "text": "No smoking. No pets. No parties or events.",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_home",
+                "category": 2,
+                "icon": null
+              }
+            ],
+            "id": 29665209,
+            "host_check_in_time_message": "James@ Roomerang’s check-in window is 3PM - 9PM",
+            "localized_structured_house_rules_with_tips": null,
+            "localized_categorized_house_rules_with_tips": [
+              {
+                "key": "check_in_time.check_out_time",
+                "long_term_text": null,
+                "text": "Check-in time is 3PM - 9PM. Check out by 10AM.",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_home",
+                "category": 1,
+                "icon": null
+              },
+              {
+                "key": "is_smoking_allowed_as_host.are_pets_allowed_as_host.are_events_allowed_as_host",
+                "long_term_text": null,
+                "text": "No smoking. No pets. No parties or events.",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_home",
+                "category": 2,
+                "icon": null
+              }
+            ],
+            "p3_structured_house_rules": [
+              "No smoking",
+              "No pets",
+              "No parties or events",
+              "Check-in time is 3PM - 9PM",
+              "Check out by 10AM"
+            ],
+            "structured_house_rules": [
+              "No smoking",
+              "No pets",
+              "No parties or events",
+              "Check-in time is 3PM - 9PM"
+            ],
+            "structured_house_rules_with_tips": [
+              {
+                "key": "is_smoking_allowed_as_host",
+                "long_term_text": null,
+                "text": "No smoking",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "house_rules_no_smoking",
+                "category": 2,
+                "icon": null
+              },
+              {
+                "key": "are_pets_allowed_as_host",
+                "long_term_text": null,
+                "text": "No pets",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "house_rules_no_pets",
+                "category": 2,
+                "icon": null
+              },
+              {
+                "key": "are_events_allowed_as_host",
+                "long_term_text": null,
+                "text": "No parties or events",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "house_rules_no_party",
+                "category": 2,
+                "icon": null
+              },
+              {
+                "key": "check_in_time",
+                "long_term_text": null,
+                "text": "Check-in time is 3PM - 9PM",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_keys",
+                "category": 1,
+                "icon": null
+              },
+              {
+                "key": "check_out_time",
+                "long_term_text": null,
+                "text": "Check out by 10AM",
+                "tip": null,
+                "details": null,
+                "airmoji_key": "accomodation_keys",
+                "category": 1,
+                "icon": null
+              }
+            ]
+          },
+          "has_availability": true,
+          "has_paid_amenities": false,
+          "has_double_blind_reviews": false,
+          "hosts": [
+            {
+              "acceptance_rate": "N/A",
+              "created_at": "2016-11-20T06:49:34Z",
+              "first_name": "James@ Roomerang",
+              "has_profile_pic": true,
+              "id": 104431444,
+              "identity_mt_verified": true,
+              "identity_v2_verified": true,
+              "identity_verified": true,
+              "is_superhost": false,
+              "is_trip_host": false,
+              "picture_large_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_large",
+              "picture_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_x_medium",
+              "recommendation_count": 0,
+              "response_rate": "100%",
+              "response_time": "within an hour",
+              "reviewee_count": 1552,
+              "thumbnail_medium_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_medium",
+              "thumbnail_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_small",
+              "last_name": "Vuong",
+              "listings_count": 38,
+              "location": "Melbourne, Australia",
+              "phone": "+61 3 9108 1005",
+              "reviews_count_as_guest": 3,
+              "review_ratings_as_guest": {
+                "cleanliness": {
+                  "average_rating": 5,
+                  "reviews_count": 3
+                },
+                "respect_house_rules": {
+                  "average_rating": 5,
+                  "reviews_count": 3
+                },
+                "communication": {
+                  "average_rating": 5,
+                  "reviews_count": 3
+                },
+                "overall": {
+                  "average_rating": 5,
+                  "reviews_count": 3
+                }
+              },
+              "verifications": [
+                "email",
+                "phone",
+                "reviews",
+                "jumio",
+                "offline_government_id",
+                "selfie",
+                "government_id",
+                "identity_manual",
+                "work_email"
+              ],
+              "verification_labels": [
+                "Email address",
+                "Phone number",
+                "Reviewed",
+                "Government ID",
+                "Government ID",
+                "Selfie",
+                "Government ID",
+                "Selfie",
+                "Work email"
+              ]
+            }
+          ],
+          "host_guidebook": null,
+          "house_manual": "",
+          "house_rules": "Check-in\n•CHECK-IN: Standard check-in is between 3-9pm. \n•Check-ins between 9pm-midnight will incur a late check-in fee of $25. \n•Check-ins after midnight will incur a late check-in fee of $50.\n*We will require you to present a valid photo ID matching the booking at the time of check-in.*\n\nStrict House Rules\n•No smoking or drug use allowed (violation will incur a $500 fine).\n•No parties allowed.\n•No pets allowed.\n•The correct number of guests staying must be reflected in the booking. Linen and towels will only be provided for the number of guests included in the booking. \n•Please leave the property in a similar condition as it was during check-in. \n•Breakages, damages, theft and loss will be the guest's liability and responsibility.\n•Violation of any of the rules will result in a loss of your security deposit and/or additional charges.\n•As part of our verification procedure, a photo of a government-issued ID and a selfie may be requested.\n•Noise levels are to be kept at an appropriate level at all times.\n•Please dispose of excess rubbish according to the rubbish disposal instructions located in the Housing Manual.\n•PLEASE USE THE RANGE HOOD WHEN COOKING so as to not set off the smoke alarm. If the smoke alarm goes off, DO NOT OPEN THE FRONT DOOR. Doing so will cause the fire truck to come to the apartment in which you will be fined heavily (approx. $1,500).\n•We provide a set of toiletries to ensure you are settled in well for the initial period of your stay. Regrettably, we are unable to provide re-stocks or refills of these toiletries if you have a longer stay. You may, however, request for housekeeping during your stay at additional cost.\n\nExcess Rubbish\nPlease dispose of excess rubbish in the rubbish chute located near the lift.\n\nLost & Found\n-Lost items will be kept in our office for 1 week. $50 will be charged for postage to mail the item back to you upon request.",
+          "id": 29665209,
+          "instant_book_enabled": true,
+          "instant_bookable": true,
+          "instant_booking_allowed_category": "experienced_guest_with_government_id",
+          "lat": -37.808346,
+          "listing_expectations": [
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe the stairs (for example, how many flights)",
+              "placeholder": "Add your description",
+              "title": "Must climb stairs",
+              "type": "requires_stairs",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-stairs"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe the noise and when it’s likely to take place",
+              "placeholder": "Add your description",
+              "title": "Potential for noise",
+              "type": "potential_noise",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-noise"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe the pets you have",
+              "placeholder": "Add your description",
+              "title": "Pet(s) live on property",
+              "type": "has_pets",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-pets-on-property"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe the parking situation around your listing",
+              "placeholder": "Add your description",
+              "title": "No parking on property",
+              "type": "limited_parking",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-no-parking"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe the spaces the guests will share",
+              "placeholder": "Add your description",
+              "title": "Some spaces are shared",
+              "type": "shared_spaces",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-shared-space"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe an amenity or service that’s limited, such as weak wifi or limited hot water",
+              "placeholder": "Add your description",
+              "title": "Amenity limitations",
+              "type": "limited_amenities",
+              "link": null,
+              "link_label": null,
+              "icon": "icon-house-rules-amenity-limitation"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe any device that records or sends video, audio, or still images. Specify each device’s location and whether it will be on or off.",
+              "placeholder": "Add your description",
+              "title": "Surveillance or recording devices on property",
+              "type": "surveillance",
+              "link": "https://www.airbnb.com/help/article/887/what-are-airbnb-s-rules-about-electronic-surveillance-devices-in-listings",
+              "link_label": "Learn more",
+              "icon": "icon-house-rules-surveillance"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe any weapons (firearms, airguns, tasers, etc.), their location, and how they’re secured",
+              "placeholder": "Add your description",
+              "title": "Weapons on property",
+              "type": "weapons",
+              "link": "https://www.airbnb.com/help/article/1529/what-are-airbnb-s-rules-about-weapons-in-a-listing",
+              "link_label": "Learn more",
+              "icon": "icon-house-rules-weapons"
+            },
+            {
+              "added_details": null,
+              "checked": false,
+              "description": "Describe any domesticated or wild animals that could be a health or safety risk to guests or other animals",
+              "placeholder": "Add your description",
+              "title": "Dangerous animals on property",
+              "type": "animals",
+              "link": "https://www.airbnb.com/help/article/2135/what-are-airbnb-s-rules-about-dangerous-animals",
+              "link_label": "Learn more",
+              "icon": "icon-house-rules-dangerous-animals"
+            }
+          ],
+          "lng": 144.960724,
+          "localized_city": "Melbourne",
+          "market": "Melbourne",
+          "max_nights": 365,
+          "medium_url": "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=medium",
+          "min_nights": 1,
+          "name": "203885 - LH5806 · Luxe 1 Bedroom Apt City View Retreat",
+          "neighborhood": "Central Business District",
+          "person_capacity": 3,
+          "picture_count": 11,
+          "picture_url": "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/57daef39-8bda-40f9-a8be-ecddccc2ee0b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1687c139-daff-4bbf-a565-b561f31f19ce.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7360577a-dca4-4b9f-ad69-13ce07b08c2f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/30a68895-a36c-4d42-94e8-0873cb793d66.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1294b192-34d7-465c-9276-ce6fd8aa3661.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/16777806-3eb4-4b51-8d20-a9fe2d73336e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d7684d51-d502-4d97-8407-9f8e7b906756.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/55088b63-8e90-43f9-9a1e-5d4c8e0c0aa6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/eeddb25c-5015-4cf1-95c6-e806c961b743.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1d537aeb-6c02-43a6-a758-bcdc135299b2.jpg?aki_policy=large"
+          ],
+          "primary_host": {
+            "acceptance_rate": "N/A",
+            "created_at": "2016-11-20T06:49:34Z",
+            "first_name": "James@ Roomerang",
+            "has_profile_pic": true,
+            "id": 104431444,
+            "identity_mt_verified": true,
+            "identity_v2_verified": true,
+            "identity_verified": true,
+            "is_superhost": false,
+            "is_trip_host": false,
+            "picture_large_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_large",
+            "picture_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_x_medium",
+            "recommendation_count": 0,
+            "response_rate": "100%",
+            "response_time": "within an hour",
+            "reviewee_count": 1552,
+            "thumbnail_medium_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_medium",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_small",
+            "last_name": "Vuong",
+            "listings_count": 38,
+            "location": "Melbourne, Australia",
+            "phone": "+61 3 9108 1005",
+            "reviews_count_as_guest": 3,
+            "review_ratings_as_guest": {
+              "cleanliness": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "respect_house_rules": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "communication": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "overall": {
+                "average_rating": 5,
+                "reviews_count": 3
+              }
+            },
+            "verifications": [
+              "email",
+              "phone",
+              "reviews",
+              "jumio",
+              "offline_government_id",
+              "selfie",
+              "government_id",
+              "identity_manual",
+              "work_email"
+            ],
+            "verification_labels": [
+              "Email address",
+              "Phone number",
+              "Reviewed",
+              "Government ID",
+              "Government ID",
+              "Selfie",
+              "Government ID",
+              "Selfie",
+              "Work email"
+            ]
+          },
+          "property_type": "Apartment",
+          "reviews_count": 15,
+          "room_type": "Entire home/apt",
+          "room_type_category": "entire_home",
+          "smart_location": "Melbourne, Australia",
+          "state": "VIC",
+          "thumbnail_url": "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=small",
+          "thumbnail_urls": [
+            "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/57daef39-8bda-40f9-a8be-ecddccc2ee0b.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/1687c139-daff-4bbf-a565-b561f31f19ce.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/7360577a-dca4-4b9f-ad69-13ce07b08c2f.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/30a68895-a36c-4d42-94e8-0873cb793d66.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/1294b192-34d7-465c-9276-ce6fd8aa3661.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/16777806-3eb4-4b51-8d20-a9fe2d73336e.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/d7684d51-d502-4d97-8407-9f8e7b906756.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/55088b63-8e90-43f9-9a1e-5d4c8e0c0aa6.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/eeddb25c-5015-4cf1-95c6-e806c961b743.jpg?aki_policy=small",
+            "https://a0.muscache.com/im/pictures/1d537aeb-6c02-43a6-a758-bcdc135299b2.jpg?aki_policy=small"
+          ],
+          "user": {
+            "acceptance_rate": "N/A",
+            "created_at": "2016-11-20T06:49:34Z",
+            "first_name": "James@ Roomerang",
+            "has_profile_pic": true,
+            "id": 104431444,
+            "identity_mt_verified": true,
+            "identity_v2_verified": true,
+            "identity_verified": true,
+            "is_superhost": false,
+            "is_trip_host": false,
+            "picture_large_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_large",
+            "picture_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_x_medium",
+            "recommendation_count": 0,
+            "response_rate": "100%",
+            "response_time": "within an hour",
+            "reviewee_count": 1552,
+            "thumbnail_medium_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_medium",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_small",
+            "last_name": "Vuong",
+            "listings_count": 38,
+            "location": "Melbourne, Australia",
+            "phone": "+61 3 9108 1005",
+            "reviews_count_as_guest": 3,
+            "review_ratings_as_guest": {
+              "cleanliness": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "respect_house_rules": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "communication": {
+                "average_rating": 5,
+                "reviews_count": 3
+              },
+              "overall": {
+                "average_rating": 5,
+                "reviews_count": 3
+              }
+            },
+            "verifications": [
+              "email",
+              "phone",
+              "reviews",
+              "jumio",
+              "offline_government_id",
+              "selfie",
+              "government_id",
+              "identity_manual",
+              "work_email"
+            ],
+            "verification_labels": [
+              "Email address",
+              "Phone number",
+              "Reviewed",
+              "Government ID",
+              "Government ID",
+              "Selfie",
+              "Government ID",
+              "Selfie",
+              "Work email"
+            ]
+          },
+          "user_id": 104431444,
+          "wireless_info": null,
+          "xl_picture_url": "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=x_large",
+          "xl_picture_urls": [
+            "https://a0.muscache.com/im/pictures/7f09b91b-3620-4017-92c2-0a92f702836f.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/57daef39-8bda-40f9-a8be-ecddccc2ee0b.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/1687c139-daff-4bbf-a565-b561f31f19ce.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/7360577a-dca4-4b9f-ad69-13ce07b08c2f.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/30a68895-a36c-4d42-94e8-0873cb793d66.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/1294b192-34d7-465c-9276-ce6fd8aa3661.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/16777806-3eb4-4b51-8d20-a9fe2d73336e.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/d7684d51-d502-4d97-8407-9f8e7b906756.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/55088b63-8e90-43f9-9a1e-5d4c8e0c0aa6.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/eeddb25c-5015-4cf1-95c6-e806c961b743.jpg?aki_policy=x_large",
+            "https://a0.muscache.com/im/pictures/1d537aeb-6c02-43a6-a758-bcdc135299b2.jpg?aki_policy=x_large"
+          ],
+          "zipcode": "3000"
+        },
+        "number_of_guests": 1,
+        "pending_payment_hours_remaining": null,
+        "pricing_quote": {
+          "early_payout_transaction_details": null,
+          "host_payout_breakdown": {
+            "discount_data": null,
+            "localized_explanation": null,
+            "localized_title": "You earn",
+            "total": {
+              "amount": 3631,
+              "amount_micros": 3631960000,
+              "amount_formatted": "$3,631.96",
+              "is_micros_accuracy": true,
+              "currency": "AUD"
+            },
+            "type": "HOST_EARNINGS",
+            "price_items": [
+              {
+                "discount_data": null,
+                "localized_explanation": null,
+                "localized_title": "$107 x 34 nights",
+                "total": {
+                  "amount": 3640,
+                  "amount_micros": 3640900000,
+                  "amount_formatted": "$3,640.90",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "ACCOMMODATION",
+                "price_items": []
+              },
+              {
+                "discount_data": null,
+                "localized_explanation": "This fee will apply to every reservation at your listing.",
+                "localized_title": "Cleaning fee",
+                "total": {
+                  "amount": 115,
+                  "amount_micros": 115000000,
+                  "amount_formatted": "$115.00",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "CLEANING_FEE",
+                "price_items": []
+              },
+              {
+                "discount_data": null,
+                "localized_explanation": "",
+                "localized_title": "Service fee",
+                "total": {
+                  "amount": -124,
+                  "amount_micros": -123940000,
+                  "amount_formatted": "-$123.94",
+                  "is_micros_accuracy": true,
+                  "currency": "AUD"
+                },
+                "type": "HOST_SERVICE_FEE",
+                "price_items": []
+              }
+            ]
+          },
+          "host_subtotal_amount": {
+            "amount": 3755,
+            "amount_micros": 3755900000,
+            "amount_formatted": "$3,755.90",
+            "is_micros_accuracy": true,
+            "currency": "AUD"
+          }
+        },
+        "primary_host": {
+          "acceptance_rate": "N/A",
+          "created_at": "2016-11-20T06:49:34Z",
+          "first_name": "James@ Roomerang",
+          "has_profile_pic": true,
+          "id": 104431444,
+          "identity_mt_verified": true,
+          "identity_v2_verified": true,
+          "identity_verified": true,
+          "is_superhost": false,
+          "is_trip_host": false,
+          "picture_large_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_large",
+          "picture_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_x_medium",
+          "recommendation_count": 0,
+          "response_rate": "100%",
+          "response_time": "within an hour",
+          "reviewee_count": 1552,
+          "thumbnail_medium_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_medium",
+          "thumbnail_url": "https://a0.muscache.com/im/pictures/304b4158-dfc1-4239-8171-0fc350e0f358.jpg?aki_policy=profile_small",
+          "last_name": "Vuong",
+          "listings_count": 38,
+          "location": "Melbourne, Australia",
+          "phone": "+61 3 9108 1005",
+          "reviews_count_as_guest": 3,
+          "review_ratings_as_guest": {
+            "cleanliness": {
+              "average_rating": 5,
+              "reviews_count": 3
+            },
+            "respect_house_rules": {
+              "average_rating": 5,
+              "reviews_count": 3
+            },
+            "communication": {
+              "average_rating": 5,
+              "reviews_count": 3
+            },
+            "overall": {
+              "average_rating": 5,
+              "reviews_count": 3
+            }
+          },
+          "verifications": [
+            "email",
+            "phone",
+            "reviews",
+            "jumio",
+            "offline_government_id",
+            "selfie",
+            "government_id",
+            "identity_manual",
+            "work_email"
+          ],
+          "verification_labels": [
+            "Email address",
+            "Phone number",
+            "Reviewed",
+            "Government ID",
+            "Government ID",
+            "Selfie",
+            "Government ID",
+            "Selfie",
+            "Work email"
+          ]
+        },
+        "status": "accepted",
+        "time_zone_name": "Australia/Melbourne",
+        "thread_id": 748004150,
+        "trip_id": null,
+        "other_user_review": null,
+        "using_identity_flow": false,
+        "show_guest_register_entry": false,
+        "is_guest_registered": true
+      }
+    ]
+  ]
+}

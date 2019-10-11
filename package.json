@@ -1,0 +1,16 @@
+{
+  "name": "airbnbtest",
+  "version": "1.0.0",
+  "description": "Test on Airbnb Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh",
+  "license": "ISC",
+  "dependencies": {
+    "airbnbapijs": "^0.10.5",
+    "fs": "0.0.1-security",
+    "json": "^9.0.6"
+  }
+}
