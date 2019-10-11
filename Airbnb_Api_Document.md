@@ -219,4 +219,4 @@ airbnb.getCalendar({
 })
 // returns array of calendar days with extended info, for your listings
 ~~~
-return example: ListingCalendarExample.JSON
+return example: [ListingCalendarExample.JSON](./ListingCalenderExample.json)
