@@ -8,7 +8,8 @@ var user_id = null;
 
 (async() => {
   var t = await airbnb.newAccessToken({username:'zjs0317@gmail.com', password: 'Tree1234@'});
-  if(t.token){
+  var k = await airbnb.login({email:'zjs0317@gmail.com', password: 'Tree1234@'});
+  /*if(t.token){
     console.log(t.token);
   }else{
     console.log(t.error.client_error_info.airlock);
@@ -17,7 +18,7 @@ var user_id = null;
     console.log(airlock_id);
     console.log(user_id);
     console.log("https://www.airbnb.com/airlock?al_id=" + airlock_id)
-  }
+  }*/
     /*var lockinfo = {
       airlock_id: 5155508264,
       user_id: 230342702,
