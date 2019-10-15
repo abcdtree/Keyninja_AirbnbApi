@@ -55,12 +55,12 @@ airbnb.setCurrency('AUD');
 /*(async() => {
   var t = await airbnb.getListingInfoHost({
     token: '3jqnlulwq45dzie8cdj8fgsdi',
-    id: 17737043
+    id: 38831044
   });
   var obj = {table: []};
   obj.table.push(t);
   var json = JSON.stringify(obj);
-  fs.writeFile("./ListingInfoHostExample.json", json, 'utf8', function(err) {
+  fs.writeFile("./ListingInfoHostExample2.json", json, 'utf8', function(err) {
     if (err) throw err;
     console.log('complete');
   });
@@ -87,20 +87,21 @@ airbnb.setCurrency('AUD');
 })();*/
 
 //get all active listings information under one user
-/*(async() => {
+(async() => {
   var t = await airbnb.getOwnActiveListings('3jqnlulwq45dzie8cdj8fgsdi');
   //console.log(t);
+  console.log(t.length);
   var obj = {table: []};
   obj.table.push(t);
   var json = JSON.stringify(obj);
-  fs.writeFile("./UserOwnActiveListingsExample.json", json, 'utf8', function(err) {
+  fs.writeFile("./UserOwnActiveListingsExample2.json", json, 'utf8', function(err) {
     if (err) throw err;
     console.log('complete');
   });
-})();*/
+})();
 
 //get all listings information under one users
-(async() => {
+/*(async() => {
   var t = await airbnb.getOwnListings({
     token: '3jqnlulwq45dzie8cdj8fgsdi',
     userId: '104431444'
@@ -109,11 +110,12 @@ airbnb.setCurrency('AUD');
   var obj = {table: []};
   obj.table.push(t);
   var json = JSON.stringify(obj);
-  fs.writeFile("./UserOwnListingsExample.json", json, 'utf8', function(err) {
+  fs.writeFile("./UserOwnListingsExample2.json", json, 'utf8', function(err) {
     if (err) throw err;
     console.log('complete');
   });
-})();
+  console.log(t.length);
+})();*/
 
 //get reservations under the authorized user
 /*(async() => {
