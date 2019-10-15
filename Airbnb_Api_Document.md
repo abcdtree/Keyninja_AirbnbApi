@@ -178,7 +178,7 @@ When we build our own login in UI, we need to build good logic on these possbile
 ~~Gets an array containing a host's active listings~~
 ~~airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')~~
 ~~// returns listing array for your account (JSON)~~
-~~return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)~~
+~~return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)~~  
 _I could not find out what attribute is deciding whether a listing is active or not.So we just give up on this function and use getOwnListings instead._
 
 ### getOwnListings
