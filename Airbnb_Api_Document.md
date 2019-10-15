@@ -174,15 +174,28 @@ When you try to **get access token too many times** or you **change your device*
 The main blocking system on airbnb website is the **AirLock** system. This is why we communicate the server with airlock_id.
 When we build our own login in UI, we need to build good logic on these possbile situations.
 ## 4. Call Useful APIs
-### getOwnActiveListings
-Gets an array containing a host's active listings
+~~### getOwnActiveListings~~
+~~Gets an array containing a host's active listings~~
 
 ~~~
 airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')
 // returns listing array for your account (JSON)
 ~~~
 
-return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)
+~~return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)~~
+
+### getOwnListings
+Gets an array containing a host's listings
+
+~~~
+airbnb.getOwnListings({
+    token: 'faketoken3sDdfvtF9if5398j0v5nui',
+    userId: '2344594'
+})
+// returns listing array for your account (JSON)
+~~~
+
+return example: [UserOwnListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnListingsExample.json)
 ### getReservations
 Returns a list of reservations
 
