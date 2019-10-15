@@ -176,13 +176,10 @@ When we build our own login in UI, we need to build good logic on these possbile
 ## 4. Call Useful APIs
 ~~### getOwnActiveListings~~
 ~~Gets an array containing a host's active listings~~
-
-~~~
-airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')
-// returns listing array for your account (JSON)
-~~~
-
+~~airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')~~
+~~// returns listing array for your account (JSON)~~
 ~~return example: [UserOwnActiveListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnActiveListingsExample.json)~~
+_I could not find out what attribute is deciding whether a listing is active or not.So we just give up on this function and use getOwnListings instead._
 
 ### getOwnListings
 Gets an array containing a host's listings
@@ -196,6 +193,11 @@ airbnb.getOwnListings({
 ~~~
 
 return example: [UserOwnListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnListingsExample.json)
+
+> how to differ primary_hosted and co-hosted listings:
+> If the user_id we used to call this api is different from the **user_id** attribute in the response, we could know this listing is co-hosted by the authorized user we used to call the api.
+> _In the api response of getOwnListings, there will be an attribute named as **hosts**. If the listing is hosted by multiple hosts, all hosts will be listed in this attribute. What's more, another attribute names as **primary_host** will list the unique primary host. _
+
 ### getReservations
 Returns a list of reservations
 
