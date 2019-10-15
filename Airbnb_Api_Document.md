@@ -194,9 +194,9 @@ airbnb.getOwnListings({
 
 return example: [UserOwnListingsExample.json](https://github.com/abcdtree/Keyninja_AirbnbApi/blob/master/UserOwnListingsExample.json)
 
-> how to differ primary_hosted and co-hosted listings:  
-> If the user_id we used to call this api is different from the **user_id** attribute in the response, we could know this listing is co-hosted by the authorized user we used to call the api.  
-> _In the api response of getOwnListings, there will be an attribute named as **hosts**. If the listing is hosted by multiple hosts, all hosts will be listed in this attribute. What's more, another attribute names as **primary_host** will list the unique primary host. _
+> **How to differ primary_hosted and co-hosted listings:**      
+> If the user_id we used to call this api is different from the **user_id** attribute in the response, we could know this listing is co-hosted by the authorized user we used to call the api.    
+> In the api response of getOwnListings, there will be an attribute named as **hosts**. If the listing is hosted by multiple hosts, all hosts will be listed in this attribute. What's more, another attribute names as **primary_host** will list the unique primary host. 
 
 ### getReservations
 Returns a list of reservations
