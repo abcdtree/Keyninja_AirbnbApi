@@ -10,10 +10,17 @@ airbnb.setCurrency('AUD');
 })();*/
 
 //get own user information
-/*(async() => {
+(async() => {
   var t = await airbnb.getOwnUserInfo('3jqnlulwq45dzie8cdj8fgsdi');
-  console.log(t);
-})();*/
+  //console.log(t);
+  var obj = {table: []};
+  obj.table.push(t);
+  var json = JSON.stringify(obj);
+  fs.writeFile("./UserOwnInformation.json", json, 'utf8', function(err) {
+    if (err) throw err;
+    console.log('complete');
+  });
+})();
 
 //auth test
 /*var token = '3jqnlulwq45dzie8cdj8fgsdi';
@@ -87,7 +94,7 @@ airbnb.setCurrency('AUD');
 })();*/
 
 //get all active listings information under one user
-(async() => {
+/*(async() => {
   var t = await airbnb.getOwnActiveListings('3jqnlulwq45dzie8cdj8fgsdi');
   //console.log(t);
   console.log(t.length);
@@ -98,7 +105,7 @@ airbnb.setCurrency('AUD');
     if (err) throw err;
     console.log('complete');
   });
-})();
+})();*/
 
 //get all listings information under one users
 /*(async() => {
