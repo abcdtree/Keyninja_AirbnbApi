@@ -174,6 +174,15 @@ When you try to **get access token too many times** or you **change your device*
 The main blocking system on airbnb website is the **AirLock** system. This is why we communicate the server with airlock_id.
 When we build our own login in UI, we need to build good logic on these possbile situations.
 ## 4. Call Useful APIs
+
+### getOwnUserInfo  
+Obtain user data for the logged in account
+
+~~~
+airbnb.getOwnUserInfo('faketoken3sDdfvtF9if5398j0v5nui')
+// returns private info about user (JSON)
+~~~
+
 ~~### getOwnActiveListings~~
 ~~Gets an array containing a host's active listings~~
 ~~airbnb.getOwnActiveListings('faketoken3sDdfvtF9if5398j0v5nui')~~
